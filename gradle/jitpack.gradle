@@ -5,7 +5,7 @@ afterEvaluate {
         publications {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
-                from components.SharedCppRelease
+                from components.StaticCppRelease
                 groupId = 'com.github.jitpack'
                 artifactId = 'android-example'
                 version = '1.0'
